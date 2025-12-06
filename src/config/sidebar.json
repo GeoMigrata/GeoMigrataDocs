@@ -3,27 +3,27 @@
     {
       "label": "Getting Started",
       "translations": {
-        "fr": "Commencer"
+        "zh-CN": "快速上手"
       },
       "items": [
         {
           "label": "[seti:vite] Introduction",
           "translations": {
-            "fr": "[seti:vite] Introduction"
+            "zh-CN": "[seti:vite] 快速上手"
           },
           "autogenerate": { "directory": "getting-started/introduction" }
         },
         {
           "label": "[setting] Global Settings",
           "translations": {
-            "fr": "[setting] Paramètres globaux"
+            "zh-CN": "[setting] 全局设置"
           },
           "autogenerate": { "directory": "getting-started/global-settings" }
         },
         {
           "label": "[seti:plan] Navigation",
           "translations": {
-            "fr": "[seti:plan] Navigation"
+            "zh-CN": "[seti:plan] 导航"
           },
           "slug": "getting-started/navigation"
         }
@@ -32,20 +32,20 @@
     {
       "label": "Content",
       "translations": {
-        "fr": "Contenu"
+        "zh-CN": "内容"
       },
       "items": [
         {
           "label": "[document] Components and Block",
           "translations": {
-            "fr": "[document] Composants et blocs"
+            "zh-CN": "[document] 控件和区块"
           },
           "autogenerate": { "directory": "contents/components" }
         },
         {
           "label": "[pencil] Editing Content",
           "translations": {
-            "fr": "[pencil] Édition du contenu"
+            "zh-CN": "[pencil] 编辑内容"
           },
           "autogenerate": { "directory": "contents/editing" }
         }
@@ -54,14 +54,14 @@
     {
       "label": "Reference",
       "translations": {
-        "fr": "Référence"
+        "zh-CN": "引用"
       },
       "autogenerate": { "directory": "reference" }
     },
     {
       "label": "Configurations",
       "translations": {
-        "fr": "Configurations"
+        "zh-CN": "配置"
       },
       "autogenerate": { "directory": "configurations" }
     }

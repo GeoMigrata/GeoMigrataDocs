@@ -26,7 +26,7 @@
   "fonts": {
     "font_family": {
       "primary": "Inter:wght@400;500;600",
-      "primary_type": "sans-serif"
+      "primary_type": "\"Noto Sans SC\", sans-serif"
     },
     "font_size": {
       "base": "16",

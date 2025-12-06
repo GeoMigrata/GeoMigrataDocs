@@ -28,7 +28,7 @@ export default defineConfig({
       logo: {
         light: logo,
         dark: logo_darkmode,
-        alt: "DocKit Logo",
+        alt: "GeoMigrata Logo",
       },
       // @ts-ignore
       social: social.main || [],
@@ -45,14 +45,13 @@ export default defineConfig({
         ContentPanel: "./src/components/override-components/ContentPanel.astro",
         Pagination: "./src/components/override-components/Pagination.astro",
         Sidebar: "./src/components/override-components/Sidebar.astro",
-        
-        
       },
-      
+
     }),
   ],
   vite: {
-    plugins: [tailwindcss(),viewTransitions()],
+    // @ts-ignore
+    plugins: [tailwindcss(), viewTransitions()],
     resolve: {
       alias: {
         "@": fileURLToPath(new URL("./src", import.meta.url)),

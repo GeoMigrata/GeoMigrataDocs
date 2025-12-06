@@ -4,6 +4,18 @@
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/utilities.css" layer(utilities);
 
+/*
+  Fonts are now loaded statically via CSS instead of through AstroFont.
+  Replace the placeholder below with your preferred Google Fonts (or self-hosted) import.
+  Example (uncomment and adjust as needed):
+
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+  If you change `fonts.font_family` in `src/config/theme.json`,
+  update the URL above to match the new font family and weights.
+*/
+/* @import url("<REPLACE_WITH_GOOGLE_FONTS_CSS_URL_FOR_PRIMARY_FONT>"); */
+
 @plugin "../tailwind-plugin/tw-theme";
 @plugin "../tailwind-plugin/tw-bs-grid";
 
@@ -123,4 +135,3 @@
 @import "./navigation.css";
 @import "./components.css";
 @import "./button.css";
-

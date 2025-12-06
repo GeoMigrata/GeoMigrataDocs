@@ -1,24 +1,24 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "主页",
       "url": "/"
     },
     {
-      "name": "Documentation",
+      "name": "文档",
       "url": "/getting-started/introduction/overview/"
     },
     {
-      "name": "Reference",
+      "name": "引用",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Configuration",
+          "name": "配置",
           "url": "/reference/configuration/"
         },
         {
-          "name": "Plugins Reference",
+          "name": "插件引用",
           "url": "/reference/plugin/"
         }
       ]
@@ -26,45 +26,45 @@
   ],
   "footer": {
     "community": {
-      "title": "Join Our Community",
+      "title": "加入我们",
       "links": [
         {
           "name": "GitHub Discussions",
           "url": "https://github.com/themefisher/dockit/discussions"
         },
         {
-          "name": "Contributing Guide",
+          "name": "贡献指南",
           "url": "/"
         }
       ]
     },
     "help_links": {
-      "title": "Helpful Links",
+      "title": "帮助链接",
       "links": [
         {
-          "name": "Getting Started",
+          "name": "快速上手",
           "url": "/"
         },
         {
-          "name": "Privacy Policy",
+          "name": "隐私政策",
           "url": "/privacy-policy"
         },
         {
-          "name": "Terms and Conditions",
+          "name": "协议和条件",
           "url": "/terms-conditions"
         },
         {
-          "name": "About Us",
+          "name": "关于",
           "url": "/about"
         },
         {
-          "name": "Troubleshooting",
+          "name": "疑难解答",
           "url": "/"
         }
       ]
     },
     "company": {
-      "title": "Resources",
+      "title": "资源",
       "links": [
         {
           "name": "Documentation Hub",
